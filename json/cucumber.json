@@ -1,0 +1,396 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9087070900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User able to open Browser",
+            "match": {
+              "location": "Login.user_able_to_open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1690551800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter an Url",
+            "match": {
+              "location": "Login.enter_an_Url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 7,
+            "value": "# Simple Hard coded scenario."
+          }
+        ],
+        "line": 9,
+        "name": "Nopcommerce Valid Login Test",
+        "description": "",
+        "id": "nopcommerce-login;nopcommerce-valid-login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1213017200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Login Link",
+            "match": {
+              "location": "Login.user_click_on_Login_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46111000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User on Login Page and Verify Login page Title",
+            "match": {
+              "location": "Login.user_on_Login_Page_and_Verify_Login_page_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1226680300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter username and password and click on login button",
+            "match": {
+              "location": "Login.user_enter_username_and_password_and_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Home Page and Verify Home page Title",
+            "match": {
+              "location": "Login.user_is_on_Home_Page_and_Verify_Home_page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 388699300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User close the browser",
+            "match": {
+              "location": "Login.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@E2E"
+          },
+          {
+            "line": 8,
+            "name": "@Regression"
+          },
+          {
+            "line": 8,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2660303600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User able to open Browser",
+            "match": {
+              "location": "Login.user_able_to_open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1600680900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter an Url",
+            "match": {
+              "location": "Login.enter_an_Url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 16,
+            "value": "# Simple Data Driven without Example keyword"
+          }
+        ],
+        "line": 18,
+        "name": "Nopcommerce Valid Login Test",
+        "description": "",
+        "id": "nopcommerce-login;nopcommerce-valid-login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1225918200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on Login Link",
+            "match": {
+              "location": "Login.user_click_on_Login_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21501000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User on Login Page and Verify Login page Title",
+            "match": {
+              "location": "Login.user_on_Login_Page_and_Verify_Login_page_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1136069800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enter \"abcd1@gmail.com\" and \"Test@123\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd1@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Test@123",
+                  "offset": 34
+                }
+              ],
+              "location": "Login.user_enter_and_click_on_login_button(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on Home Page and Verify Home page Title",
+            "match": {
+              "location": "Login.user_is_on_Home_Page_and_Verify_Home_page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 410117200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User close the browser",
+            "match": {
+              "location": "Login.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@E2E"
+          },
+          {
+            "line": 17,
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2441705000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User able to open Browser",
+            "match": {
+              "location": "Login.user_able_to_open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1661569200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter an Url",
+            "match": {
+              "location": "Login.enter_an_Url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 39,
+            "value": "# Data Table"
+          }
+        ],
+        "line": 41,
+        "name": "Nopcommerce Valid Login Test",
+        "description": "",
+        "id": "nopcommerce-login;nopcommerce-valid-login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 849149600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User click on Login Link",
+            "match": {
+              "location": "Login.user_click_on_Login_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23355700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User on Login Page and Verify Login page Title",
+            "match": {
+              "location": "Login.user_on_Login_Page_and_Verify_Login_page_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 883773600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User enter USERNAME and PASSWORD and click on login button",
+            "match": {
+              "location": "Login.user_enter_USERNAME_and_PASSWORD_and_click_on_login_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abcd5@gmail.com",
+                  "Test@123"
+                ],
+                "line": 45
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User is on Home Page and Verify Home page Title",
+            "match": {
+              "location": "Login.user_is_on_Home_Page_and_Verify_Home_page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 556219200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User close the browser",
+            "match": {
+              "location": "Login.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@Sanity"
+          },
+          {
+            "line": 40,
+            "name": "@Regression"
+          },
+          {
+            "line": 40,
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "NopCommerce Login",
+    "description": "",
+    "id": "nopcommerce-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/C_Login.feature"
+  }
+]
