@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="27.12263">
-<testcase classname="NopCommerce Login" name="Nopcommerce Valid Login Test" time="13.652181">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="52.71088">
+<testcase classname="NopCommerce Register" name="NopCommerce Registration with valid details" time="14.102766">
+<system-out><![CDATA[Given User able to open Browser1............................................passed
+And Enter an Url1...........................................................passed
+When User Click on Register btn.............................................passed
+Then User able to enter personal details "Abhishek" "Sanghavi" "14" "July" "1987" "rohan123@gmail.com" "Marks Wholesale Ltd"  "rohan123" "rohan123".passed
+Then click on Register btn submit...........................................passed
+Then User close the browser1................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="NopCommerce Login" name="Nopcommerce Valid Login Test" time="6.375698">
 <system-out><![CDATA[Given User able to open Browser.............................................passed
 And Enter an Url............................................................passed
 When User click on Login Link...............................................passed
@@ -10,7 +19,7 @@ Then User is on Home Page and Verify Home page Title........................pass
 And User close the browser..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="NopCommerce Login" name="Nopcommerce Valid Login Test" time="7.054642">
+<testcase classname="NopCommerce Login" name="Nopcommerce Valid Login Test" time="6.547967">
 <system-out><![CDATA[Given User able to open Browser.............................................passed
 And Enter an Url............................................................passed
 When User click on Login Link...............................................passed
@@ -20,7 +29,37 @@ Then User is on Home Page and Verify Home page Title........................pass
 And User close the browser..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="NopCommerce Login" name="Nopcommerce Valid Login Test" time="6.415807">
+<testcase classname="NopCommerce Login" name="Nopcommerce Valid Login Test" time="6.352684">
+<system-out><![CDATA[Given User able to open Browser.............................................passed
+And Enter an Url............................................................passed
+When User click on Login Link...............................................passed
+And User on Login Page and Verify Login page Title..........................passed
+Then User enter "abcd2@gmail.com" and "Test@123" and Click on login button..passed
+Then User is on Home Page and Verify Home page Title........................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="NopCommerce Login" name="Nopcommerce Valid Login Test 2" time="6.426866">
+<system-out><![CDATA[Given User able to open Browser.............................................passed
+And Enter an Url............................................................passed
+When User click on Login Link...............................................passed
+And User on Login Page and Verify Login page Title..........................passed
+Then User enter "abcd3@gmail.com" and "Test@123" and Click on login button..passed
+Then User is on Home Page and Verify Home page Title........................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="NopCommerce Login" name="Nopcommerce Valid Login Test 3" time="6.527629">
+<system-out><![CDATA[Given User able to open Browser.............................................passed
+And Enter an Url............................................................passed
+When User click on Login Link...............................................passed
+And User on Login Page and Verify Login page Title..........................passed
+Then User enter "abcd4@gmail.com" and "Test@123" and Click on login button..passed
+Then User is on Home Page and Verify Home page Title........................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="NopCommerce Login" name="Nopcommerce Valid Login Test" time="6.37727">
 <system-out><![CDATA[Given User able to open Browser.............................................passed
 And Enter an Url............................................................passed
 When User click on Login Link...............................................passed

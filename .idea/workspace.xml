@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8be8b07b-428f-425e-b01e-a61c4f9c8a83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A_Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/B_Dashboard.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/C_Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/D_Product.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/htmlReport/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A_Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A_Register.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/abhis/IdeaProjects/BBD_Cucumber_Unify",
+    "last_opened_file_path": "C:/Users/abhis/IdeaProjects/PageObjectModel_FW_Unify",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -58,7 +51,46 @@
       <recent name="runner" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: A_Register" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A_Register.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BBD_Cucumber_Unify" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: A_Register" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: NopCommerce Registration with valid details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A_Register.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BBD_Cucumber_Unify" />
+      <option name="NAME_FILTER" value="^NopCommerce Registration with valid details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^NopCommerce Registration with valid details$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: NopCommerce Registration with valid details" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BBD_Cucumber_Unify" />
       <extension name="coverage">
@@ -77,6 +109,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: A_Register" />
+        <item itemvalue="Cucumber Java.Scenario: NopCommerce Registration with valid details" />
       </list>
     </recent_temporary>
   </component>
